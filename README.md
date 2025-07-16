@@ -22,20 +22,17 @@ Brindar visibilidad diaria de la facturación, así como de la distribución por
 ## 📁 Estructura del Repositorio
 
 ```plaintext
-PowerBI-OEE-Coflex/
+Comercial_Panovo/
+├── README.md                               → Descripción general del repositorio
 ├── pbix/                                   → Archivo PBIX del tablero
 ├── docs/
-│   ├── README.md                           → Descripción general del repositorio
-│   ├── Medidas.md                          → Medidas DAX documentadas
-│   ├── Columnas_Calculadas.md              → DAX documentadas
-│   ├── Tablas_Catalogo.md                   → DAX documentadas
-│   ├── Instructivo Dashboard OEE.docx      → Guía de uso del dashboard
-├── sql/ 
-│   └── consulta_fuente_OEE.sql             → Consulta SQL base
+│   ├── Medidas_DAX.md                      → Medidas DAX documentadas
+│   ├── Columnas_DAX.md                     → DAX documentadas
+│   ├── Tablas_DAX.md                       → DAX documentadas
+│   └── Instructivo Dashboard OEE.docx      → Guía de uso del dashboard
 ├── img/
 │   ├── preview_dashboard.png               → Captura del dashboard
-│   └── modelo_datos.png                    → Relación entre tablas
-└── LICENSE                                 → MIT (u otra que se defina)
+└── ─── modelo_datos.png                    → Relación entre tablas
 ```
 
 ---
